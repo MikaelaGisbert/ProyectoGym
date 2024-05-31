@@ -1,5 +1,5 @@
 .Horario{
-    /* background-color: blue ; */
+    /* background-color: blue ;  */
     display: inline-block;
     width: 177px;
     height: 222.45px;
@@ -8,19 +8,16 @@
     /* background-color: aqua; */
     display: flex;
     justify-content: center;
-    margin: 0px 0px 13px 0px;
-
 }
-.DatosHorario{
-    /* background-color: aquamarine; */
+.Imagen img{ 
+    margin: 0px 0px 13px 0px;
+    border-radius: 50%;
+}
+.DatosHorario h1{
+    /* background-color: aquamarine; */ 
     display: inline-block; 
     width: 177px;
     height: 91.45;
-}
-img{
-    border-radius: 50%;
-}
-h1{
     font-size: 25px;
     font-weight: 600;
     color: white;
@@ -28,9 +25,9 @@ h1{
     height: 36.45px;
     border: 0px;
     margin: 0px;
-
 }
-p{
+.DatosHorario p{
+    /* background-color: aquamarine; */
     font-size: 20px;
     text-align: center;
     color: white;
