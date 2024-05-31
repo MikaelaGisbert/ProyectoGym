@@ -1,14 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import React from 'react'
+import HorarioEt from './componentes/HorarioEt'
+import PerfilEt from './componentes/PerfilEt'
 import './App.css'
 
-function App() {
-
+const App = () => {
   return (
-    <>
-      
-    </>
+    <div className='Cuadro'>
+
+      <HorarioEt/>
+      <PerfilEt/>
+    </div>
+
+    
   )
 }
 
