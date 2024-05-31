@@ -1,0 +1,11 @@
+.ContenedorB {
+    width: 327px;
+    height: 48;
+    background-color: #C04551;
+    border-radius: 80px;
+
+}
+ .ContenedorB p{
+    font-size: 20px;
+
+ }
